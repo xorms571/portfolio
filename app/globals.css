@@ -18,4 +18,66 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+}
+
+b {
+  color: yellow;
+  font-weight: 100;
+}
+.contaiiner {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.datacard {
+  width: 60%;
+}
+.layout {
+  width: 60%;
+}
+@media (max-width: 1010px) {
+  body{
+    height: auto;
+  }
+  .contaiiner {
+    margin: 20px;
+    display: block;
+    height: 100%;
+  }
+  .datacard {
+    width: 100%;
+    flex-direction: column;
+  }
+  .layout {
+    width: 100%;
+  }
+  .cardimg{
+    max-width: 100%;
+    height: 300px;
+    overflow: visible;
+  }
+  .carddesc{
+    max-width: 100%;
+  }
+  .cardimg>img{
+    border-radius: 6px;
+  }
+  .paltechbox{
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .paltechbox>ul{
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .paltechbox>ul>h3{
+    width: 100%;
+  }
+  .paltechbox>ul>li{
+    margin-right: 10px;
+  }
 }
