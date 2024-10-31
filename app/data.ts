@@ -1,5 +1,24 @@
 export const portfolioInfoData = [
   {
+    img: "/img/portfolioImg/api.png",
+    title: "API Project",
+    adress: "https://api-project-ivory-six.vercel.app/",
+    color: ["#e7e5e4", "#44403c"],
+    tech: [
+      ["/img/icons/Next.js", "next"],
+      ["/img/icons/React.png", "react"],
+      ["/img/icons/Node.js.png", "node.js"],
+      ["/img/icons/Express.png", "express"],
+      ["/img/icons/MongoDB.png", "mongodb"],
+      ["/img/icons/Mongoose.js.png", "mongoose"],
+      ["/img/icons/Vercel.png", "vercel"],
+      ["/img/icons/Railway.svg", "railway"],
+      ["/img/icons/Tailwind CSS.png", "tailwind"],
+    ],
+    link: "/projects/apiProject",
+    desc: "<b>openweather, 네이버 openapi, news api</b> 등을 이용해 쇼핑, 뉴스, 날씨 정보 등을 불러 왔다. 방문객 수는 <b>mongodb</b>를 이용해서 데이터를 보내고 출력하게끔 하였다. <b>next.js</b>를 이용하였다.",
+  },
+  {
     img: "/img/portfolioImg/my-forum-blush.vercel-horz.jpg",
     title: "My Forum",
     adress: "https://my-forum-blush.vercel.app/",
@@ -71,9 +90,10 @@ export const portfolioInfoData = [
   },
 ];
 export const pagesData = {
-  myForum: portfolioInfoData[0],
-  instaCopy: portfolioInfoData[1],
-  weatherApp: portfolioInfoData[2],
-  sunshine: portfolioInfoData[3],
-  webbler: portfolioInfoData[4],
+  apiProject: portfolioInfoData[0],
+  myForum: portfolioInfoData[1],
+  instaCopy: portfolioInfoData[2],
+  weatherApp: portfolioInfoData[3],
+  sunshine: portfolioInfoData[4],
+  webbler: portfolioInfoData[5],
 };

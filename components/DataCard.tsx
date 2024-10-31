@@ -7,10 +7,10 @@ interface dataCardsProps {
 const DataCard: React.FC<dataCardsProps> = ({ data }) => {
   return (
     <div className="datacard flex h-96 gap-5">
-      <div className="cardimg max-w-96 rounded-md overflow-hidden">
+      <div className="cardimg min-w-96 rounded-md overflow-hidden">
         <Image src={data.img} alt={data.title} />
       </div>
-      <div className="carddesc flex flex-col max-w-96 gap-3">
+      <div className="carddesc flex flex-col gap-3">
         <h2 className="text-2xl font-bold">{data.title}</h2>
         <a href={data.adress} className="underline">
           {data.adress}

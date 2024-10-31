@@ -2,7 +2,7 @@ import { pagesData } from "@/app/data";
 import DataCard from "./DataCard";
 import Layout from "./Layout";
 type ContainerProps = {
-  data: "instaCopy" | "myForum" | "sunshine" | "weatherApp" | "webbler";
+  data: "instaCopy" | "myForum" | "sunshine" | "weatherApp" | "webbler" | "apiProject";
 };
 const Container = ({ data }: ContainerProps) => {
   return (
