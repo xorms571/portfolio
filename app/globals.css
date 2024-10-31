@@ -60,7 +60,7 @@ b {
     overflow: visible;
   }
   .carddesc{
-    max-width: 100%;
+    min-width: 100%;
   }
   .cardimg>img{
     border-radius: 6px;
