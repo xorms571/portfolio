@@ -5,7 +5,7 @@ export const portfolioInfoData = [
     adress: "https://api-project-ivory-six.vercel.app/",
     color: ["#e7e5e4", "#44403c"],
     tech: [
-      ["/img/icons/Next.js", "next"],
+      ["/img/icons/Next.js.png", "next"],
       ["/img/icons/React.png", "react"],
       ["/img/icons/Node.js.png", "node.js"],
       ["/img/icons/Express.png", "express"],
