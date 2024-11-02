@@ -10,11 +10,16 @@ b {
   color: #000;
   font-weight: 900;
 }
+.contaiiner{
+  width: 80%;
+  padding: 15vh 8vh;
+}
 @media (max-width: 1010px) {
   body{
     height: auto;
   }
   .contaiiner {
+    width: auto;
     margin: 20px;
     display: block;
     height: 100%;

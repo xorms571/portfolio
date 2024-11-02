@@ -1,8 +1,8 @@
-import Layout from "@/components/Layout";
+import Container from "@/components/Container";
 const Page = () => {
   return (
     <div className="flex justify-center h-screen items-center">
-      <Layout />
+      <Container data="apiProject" />;
     </div>
   );
 };
