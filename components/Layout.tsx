@@ -8,7 +8,7 @@ const Layout = () => {
 
   // 경로가 해당 링크와 일치하는지 확인하는 함수
   const isClick = (x: string) => {
-    return pathname.includes(x) ? "bg-white text-black" : null; // 현재 경로에 맞게 클래스 이름 반환
+    return pathname.includes(x) ? "text-black bg-white" : 'text-white'; // 현재 경로에 맞게 클래스 이름 반환
   };
 
   return (
@@ -24,7 +24,7 @@ const Layout = () => {
             <Link
               key={x.title}
               href={x.link}
-              className={`${isClick(x.link)} px-3 rounded-md`}
+              className={`${isClick(x.link)} px-2 rounded-md`}
             >
               {x.title}
             </Link>

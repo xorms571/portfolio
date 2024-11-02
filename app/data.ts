@@ -15,7 +15,7 @@ export const portfolioInfoData = [
       ["/img/icons/Railway.svg", "railway"],
       ["/img/icons/Tailwind CSS.png", "tailwind"],
     ],
-    link: "/projects/apiProject",
+    link: "/apiProject",
     desc: "<b>openweather, 네이버 openapi, news api</b> 등을 이용해 쇼핑, 뉴스, 날씨 정보 등을 불러 왔다. 방문객 수는 <b>mongodb</b>를 이용해서 데이터를 보내고 출력하게끔 하였다. <b>next.js</b>를 이용하였다. 앞으로 사용자 인증을 추가하고 사용자가 api로 불러온 게시물들을 구독해서 따로 볼 수 있게끔 구현할 것이다.",
   },
   {
@@ -33,7 +33,7 @@ export const portfolioInfoData = [
       ["/img/icons/Railway.svg", "railway"],
       ["/img/icons/Tailwind CSS.png", "tailwind"],
     ],
-    link: "/projects/myForum",
+    link: "/myForum",
     desc: "<b>Node.js와 Express로 서버</b>를 만들고 <b>MongoDB로 데이터베이스 구축</b> 후 Mongoose로 문서 매핑 db연결, Railway를 이용해 백엔드 파일들을 업로드하고 호스팅, Vercel에 프론트엔드 업로드 후 Railway로 만든 도메인으로 백엔드와 연결하였다. 이 과정을 통해 백엔드가 어떻게 db를 구축하고 <b>서버를 호스팅</b>하고, <b>프론트엔드와 연결</b>하는지 알게되었다.",
   },
   {
@@ -46,7 +46,7 @@ export const portfolioInfoData = [
       ["/img/icons/TypeScript.png", "typescript"],
       ["/img/icons/Tailwind CSS.png", "tailwind"],
     ],
-    link: "/projects/instaCopy",
+    link: "/instaCopy",
     desc: "<b>리액트</b>를 이용하였고, <b>라우터 돔</b>을 사용하여 페이지 간에 경로를 구현, <b>타입스크립트</b>로 타입을 지정하여 컴파일 에러 예방 및 디버깅, <b>tailwind</b>로 스타일 구현, <b>firebase</b>를 이용하여 db 및 서버구축을 하였습니다.",
   },
   {
@@ -59,7 +59,7 @@ export const portfolioInfoData = [
       ["/img/icons/Sass.png", "sass"],
       ["/img/icons/JavaScript.png", "javascript"],
     ],
-    link: "/projects/weatherApp",
+    link: "/weatherApp",
     desc: "<b>오픈 API</b>를 이용해 날씨정보를 불러오고 데이터들을 적절한 위치의 화면에 구성하는 것을 배 울 수 있었습니다.",
   },
   {
@@ -72,7 +72,7 @@ export const portfolioInfoData = [
       ["/img/icons/CSS3.png", "css3"],
       ["/img/icons/jQuery.png", "jquery"],
     ],
-    link: "/projects/sunshine",
+    link: "/sunshine",
     desc: "<b>php</b>를 이용한 화면 구성과, css기본 사용 및 <b>flex, grid</b>를 이용한 개체 정리, jQuery를 이용한 js구현 및 화면 위치에 따른 <b>애니메이션 구현</b>을 배 울 수 있었습니다.",
   },
   {
@@ -85,7 +85,7 @@ export const portfolioInfoData = [
       ["/img/icons/Sass.png", "sass"],
       ["/img/icons/jQuery.png", "jquery"],
     ],
-    link: "/projects/webbler",
+    link: "/webbler",
     desc: "php를 이용한 화면 구성과, sass를 이용한 스타일 정리 및 <b>반응형 구현</b>, jQuery를 이용한 js구현 및 화면 위치에 따른 애니메이션 그리고 <b>외부 라이브러리</b>를 이용한 애니메이션 구현을 배 울 수 있었습니다.",
   },
 ];

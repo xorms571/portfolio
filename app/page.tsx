@@ -1,6 +1,11 @@
 import Container from "@/components/Container";
+import Layout from "@/components/Layout";
 const Page = () => {
-  return <Container data="apiProject" />;
+  return (
+    <div className="flex justify-center h-screen items-center">
+      <Layout />
+    </div>
+  );
 };
 
 export default Page;

@@ -6,7 +6,7 @@ type ContainerProps = {
 };
 const Container = ({ data }: ContainerProps) => {
   return (
-    <div className="contaiiner">
+    <div className="contaiiner py-52 px-96 h-screen flex flex-col justify-center">
       <Layout />
       <DataCard data={pagesData[data]} />
     </div>

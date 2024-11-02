@@ -1,42 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+body{
+  background: #000;
+  color: #fff;
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  height: 100vh;
-}
-
 b {
-  color: yellow;
-  font-weight: 100;
-}
-.contaiiner {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.datacard {
-  width: 60%;
-}
-.layout {
-  width: 60%;
+  background: yellow;
+  color: #000;
+  font-weight: 900;
 }
 @media (max-width: 1010px) {
   body{
@@ -46,6 +18,7 @@ b {
     margin: 20px;
     display: block;
     height: 100%;
+    padding: 0;
   }
   .datacard {
     width: 100%;
