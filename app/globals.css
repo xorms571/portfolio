@@ -1,28 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-body{
+body {
   background: #000;
   color: #fff;
 }
 b {
-  background: yellow;
-  color: #000;
+  color: yellow;
   font-weight: 900;
 }
-.contaiiner{
-  width: 80%;
-  padding: 15vh 8vh;
+.contaiiner {
+  width: 45%;
+  padding: 15vh 0;
 }
-@media (max-width: 1010px) {
-  body{
+@media (max-width: 1510px) {
+  body {
     height: auto;
   }
   .contaiiner {
     width: auto;
-    margin: 20px;
-    display: block;
-    height: 100%;
+    margin: 20px 20%;
+    height: auto;
     padding: 0;
   }
   .datacard {
@@ -32,30 +30,35 @@ b {
   .layout {
     width: 100%;
   }
-  .cardimg{
+  .cardimg {
     min-width: 100%;
     height: 300px;
     overflow: visible;
   }
-  .carddesc{
+  .carddesc {
     min-width: 100%;
   }
-  .cardimg>img{
+  .cardimg > img {
     border-radius: 6px;
   }
-  .paltechbox{
+  .paltechbox {
     flex-direction: column;
     margin-bottom: 20px;
   }
-  .paltechbox>ul{
+  .paltechbox > ul {
     width: 100%;
     flex-direction: row;
     flex-wrap: wrap;
   }
-  .paltechbox>ul>h3{
+  .paltechbox > ul > h3 {
     width: 100%;
   }
-  .paltechbox>ul>li{
+  .paltechbox > ul > li {
     margin-right: 10px;
+  }
+}
+@media (max-width: 700px) {
+  .contaiiner {
+    margin: 20px;
   }
 }

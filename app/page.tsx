@@ -1,7 +1,7 @@
 import Container from "@/components/Container";
 const Page = () => {
   return (
-    <div className="flex justify-center h-screen items-center">
+    <div className="flex justify-center items-center">
       <Container data="apiProject" />;
     </div>
   );
