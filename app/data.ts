@@ -7,6 +7,7 @@ export const portfolioInfoData = [
     tech: [
       ["/img/icons/Next.js.png", "next"],
       ["/img/icons/React.png", "react"],
+      ["/img/icons/TypeScript.png", "typescript"],
       ["/img/icons/Node.js.png", "node.js"],
       ["/img/icons/Express.png", "express"],
       ["/img/icons/MongoDB.png", "mongodb"],
